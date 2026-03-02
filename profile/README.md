@@ -12,11 +12,9 @@ Fueled by this inspiration, OpenKrab transforms into a hub for practical innovat
 
 For me, OpenKrab represents more than just code—it's a personal expedition into learning through creation. This organization embodies my commitment to giving back to the community, venturing into fresh concepts, and expressing gratitude to the OpenClaw project by forging something uniquely OpenKrab.
 
-## Projects
-
-- [openkrab](https://github.com/openkrab/openkrab) - Autonomous AI Infrastructure. Any OS. Any Platform. 🦞
-- [ClawWizard](https://github.com/openkrab/ClawWizard) - Premium, interactive setup wizard for OpenClaw 🦞
-- [ClawFlow](https://github.com/openkrab/ClawFlow) - CLI wrapper for OpenClaw that installs skill bundles and wires cron jobs 🦞
-- [ClawReceipt](https://github.com/openkrab/ClawReceipt) - Specialized tool for OpenClaw to automatically capture and manage receipts 🦞
-- [ClawMemory](https://github.com/openkrab/ClawMemory) - Local-first memory layer for OpenClaw/OpenKrab ecosystem 🦞
-- [ClawOffice](https://github.com/openkrab/ClawOffice) - AI Agent Company Simulation. Command your CLI agent empire 🦞
+## Projects\n\n- [ClawFlow](https://github.com/openkrab/ClawFlow) - ClawFlow is a CLI wrapper for OpenClaw that installs skill bundles and wires cron jobs in one flow. 🦞 🦞
+- [ClawReceipt](https://github.com/openkrab/ClawReceipt) - ClawReceipt  is a specialized tool for OpenClaw to automatically capture, process, and manage receipts and financial data. 🦞 🦞
+- [ClawMemory](https://github.com/openkrab/ClawMemory) - ClawMemory is a local-first memory layer for OpenClaw/OpenKrab ecosystem. 🦞 🦞
+- [ClawWizard](https://github.com/openkrab/ClawWizard) - ClawWizard is a premium, interactive setup wizard for OpenClaw, your personal AI assistant. 🦞 🦞
+- [ClawOffice](https://github.com/openkrab/ClawOffice) - AI Agent Company Simulation. Command your CLI agent empire from the CEO desk. 🦞 🦞
+- [openkrab](https://github.com/openkrab/openkrab) - OpenKrab — Autonomous AI Infrastructure. Any OS. Any Platform. 🦞  🦞\n
