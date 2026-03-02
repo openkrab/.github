@@ -17,7 +17,7 @@ fi
 
 echo "Generating Projects section markdown..."
 
-projects_md=$(echo "$repos_json" | jq -r '.[] | select(.name != ".github") | "- [\(.name)](https://github.com/'"$ORG"'/\(.name)) - \(.description // "No description" | sub(" *🦞$"; "")) 🦞"')
+projects_md=$(echo "$repos_json" | jq -r '.[] | select(.name != ".github") | "- [\(.name)](https://github.com/'"$ORG"'/\(.name)) - \(.description // "No description" | sub(" *🦞+$"; "")) 🦞"')
 
 if [ -z "$projects_md" ]; then
   echo "No projects found"
