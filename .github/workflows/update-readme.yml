@@ -25,6 +25,9 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Pull latest changes
+        run: git pull origin main
+
       - name: Update Projects section
         run: bash .github/scripts/update-projects.sh
 
