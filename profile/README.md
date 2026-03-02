@@ -14,10 +14,10 @@ For me, OpenKrab represents more than just code—it's a personal expedition int
 
 ## Projects
 
-- [ClawBackup](https://github.com/openkrab/ClawBackup) -  🦞
-- [ClawBrowser](https://github.com/openkrab/ClawBrowser) -  🦞
-- [ClawLearnFeed](https://github.com/openkrab/ClawLearnFeed) -  🦞
-- [ClawSelfImprove](https://github.com/openkrab/ClawSelfImprove) -  🦞
+- [ClawBackup](https://github.com/openkrab/ClawBackup) - ClawBackup automatically backs up your critical OpenClaw data nightly, encrypted and secure. 🦞 Fear losing your workspaces, memories, skills, or configs? This skill has you covered. 🦞
+- [ClawBrowser](https://github.com/openkrab/ClawBrowser) - Safe Browser Automation for OpenClaw - Browse the web safely without opening windows on your screen. 🦞
+- [ClawLearnFeed](https://github.com/openkrab/ClawLearnFeed) - ClawLearnFeed is a personal learning feed skill for OpenClaw/OpenKrab ecosystem. 🦞
+- [ClawSelfImprove](https://github.com/openkrab/ClawSelfImprove) - ClawSelfImprove is an enhanced self-improving loop for OpenClaw/OpenKrab ecosystem. 🦞
 - [ClawOffice](https://github.com/openkrab/ClawOffice) - AI Agent Company Simulation. Command your CLI agent empire from the CEO desk. 🦞
 - [ClawReceipt](https://github.com/openkrab/ClawReceipt) - ClawReceipt  is a specialized tool for OpenClaw to automatically capture, process, and manage receipts and financial data. 🦞
 - [ClawFlow](https://github.com/openkrab/ClawFlow) - ClawFlow is a CLI wrapper for OpenClaw that installs skill bundles and wires cron jobs in one flow. 🦞
