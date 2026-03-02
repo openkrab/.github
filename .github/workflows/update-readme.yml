@@ -1,0 +1,60 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Run daily at midnight UTC
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update Projects section
+        run: |
+          # Fetch repositories from openkrab organization
+          repos_json=$(gh repo list openkrab --json name,description --limit 100)
+          
+          # Generate markdown list, excluding .github
+          projects_md=$(echo "$repos_json" | jq -r '.[] | select(.name != ".github") | "- [\(.name)](https://github.com/openkrab/\(.name)) - \(.description // "No description") 🦞"')
+          
+          # Create new Projects section
+          new_projects="## Projects\n\n$projects_md\n"
+          
+          # Replace the Projects section in README.md
+          # Find the line number of "## Projects"
+          projects_line=$(grep -n "^## Projects" profile/README.md | cut -d: -f1)
+          
+          if [ -n "$projects_line" ]; then
+            # Find the next section or end of file
+            next_section=$(tail -n +$((projects_line + 1)) profile/README.md | grep -n "^## " | head -1 | cut -d: -f1)
+            
+            if [ -n "$next_section" ]; then
+              # Replace from Projects to next section
+              head -n $((projects_line - 1)) profile/README.md > temp_readme.md
+              echo "$new_projects" >> temp_readme.md
+              tail -n +$((projects_line + next_section)) profile/README.md >> temp_readme.md
+            else
+              # Replace from Projects to end
+              head -n $((projects_line - 1)) profile/README.md > temp_readme.md
+              echo "$new_projects" >> temp_readme.md
+            fi
+            
+            mv temp_readme.md profile/README.md
+          fi
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add profile/README.md
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto-update Projects section with latest repositories"
+            git push
+          fi
