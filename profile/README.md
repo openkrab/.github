@@ -14,13 +14,17 @@ For me, OpenKrab represents more than just code—it's a personal expedition int
 
 ## Projects
 
+- [ClawMirror](https://github.com/openkrab/ClawMirror) -  🦞
+- [ClawChain](https://github.com/openkrab/ClawChain) -  🦞
+- [ClawGraph](https://github.com/openkrab/ClawGraph) -  🦞
+- [ClawOffice](https://github.com/openkrab/ClawOffice) - AI Agent Company Simulation. Command your CLI agent empire from the CEO desk. 🦞
+- [ClawWizard](https://github.com/openkrab/ClawWizard) - ClawWizard is a premium, interactive setup wizard for OpenClaw, your personal AI assistant. 🦞
+- [ClawSync](https://github.com/openkrab/ClawSync) -  🦞
 - [ClawBackup](https://github.com/openkrab/ClawBackup) - ClawBackup automatically backs up your critical OpenClaw data nightly, encrypted and secure.  🦞  🦞
 - [ClawBrowser](https://github.com/openkrab/ClawBrowser) - Safe Browser Automation for OpenClaw - Browse the web safely without opening windows on your screen. 🦞
 - [ClawLearnFeed](https://github.com/openkrab/ClawLearnFeed) - ClawLearnFeed is a personal learning feed skill for OpenClaw/OpenKrab ecosystem. 🦞
 - [ClawSelfImprove](https://github.com/openkrab/ClawSelfImprove) - ClawSelfImprove is an enhanced self-improving loop for OpenClaw/OpenKrab ecosystem. 🦞
-- [ClawOffice](https://github.com/openkrab/ClawOffice) - AI Agent Company Simulation. Command your CLI agent empire from the CEO desk. 🦞
 - [ClawReceipt](https://github.com/openkrab/ClawReceipt) - ClawReceipt  is a specialized tool for OpenClaw to automatically capture, process, and manage receipts and financial data. 🦞
 - [ClawFlow](https://github.com/openkrab/ClawFlow) - ClawFlow is a CLI wrapper for OpenClaw that installs skill bundles and wires cron jobs in one flow. 🦞
 - [ClawMemory](https://github.com/openkrab/ClawMemory) - ClawMemory is a local-first memory layer for OpenClaw/OpenKrab ecosystem. 🦞
-- [ClawWizard](https://github.com/openkrab/ClawWizard) - ClawWizard is a premium, interactive setup wizard for OpenClaw, your personal AI assistant. 🦞
 - [OpenKrab](https://github.com/openkrab/OpenKrab) - OpenKrab — Autonomous AI Infrastructure. Any OS. Any Platform. 🦞  🦞
