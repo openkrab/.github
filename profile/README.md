@@ -14,11 +14,11 @@ For me, OpenKrab represents more than just code—it's a personal expedition int
 
 ## Projects
 
+- [ClawWizard](https://github.com/openkrab/ClawWizard) - ClawWizard is a premium, interactive setup wizard for OpenClaw, your personal AI assistant. 🦞
 - [ClawMirror](https://github.com/openkrab/ClawMirror) -  🦞
 - [ClawChain](https://github.com/openkrab/ClawChain) -  🦞
 - [ClawGraph](https://github.com/openkrab/ClawGraph) -  🦞
 - [ClawOffice](https://github.com/openkrab/ClawOffice) - AI Agent Company Simulation. Command your CLI agent empire from the CEO desk. 🦞
-- [ClawWizard](https://github.com/openkrab/ClawWizard) - ClawWizard is a premium, interactive setup wizard for OpenClaw, your personal AI assistant. 🦞
 - [ClawSync](https://github.com/openkrab/ClawSync) -  🦞
 - [ClawBackup](https://github.com/openkrab/ClawBackup) - ClawBackup automatically backs up your critical OpenClaw data nightly, encrypted and secure.  🦞  🦞
 - [ClawBrowser](https://github.com/openkrab/ClawBrowser) - Safe Browser Automation for OpenClaw - Browse the web safely without opening windows on your screen. 🦞
